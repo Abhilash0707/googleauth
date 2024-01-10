@@ -54,7 +54,7 @@ const App = () => {
       </Text>
       <TouchableOpacity style={styles.signinbtn} onPress={() => signIn()}>
         <Text style={{color: 'black', fontWeight: '800', fontSize: 20}}>
-          Google Sign-In
+          Google Sign-In with abhilash
         </Text>
       </TouchableOpacity>
       <View
@@ -89,7 +89,7 @@ const App = () => {
 
         <Text>{id}</Text>
       </View>
-    </View>  
+    </View>
   );
 };
 
